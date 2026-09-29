@@ -45,7 +45,7 @@ export default function Navbar() {
               href={PHONE_TEL}
               className="flex items-center gap-2 rounded-full bg-gradient-to-r from-amber-400 to-orange-500 px-5 py-2 text-sm font-bold text-black shadow-lg shadow-amber-500/30 transition hover:scale-105 hover:shadow-amber-500/50"
             >
-              <Phone className="w-4 h-4" /> {PHONE_DISPLAY}
+               Get a Free Quote
             </a>
           </li>
         </ul>
@@ -78,7 +78,7 @@ export default function Navbar() {
               onClick={() => setMenuOpen(false)}
               className="flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-amber-400 to-orange-500 px-5 py-3 text-center font-bold text-black"
             >
-              <Phone className="w-4 h-4" /> Call {PHONE_DISPLAY}
+              Get a Free Quote
             </a>
           </li>
         </ul>
