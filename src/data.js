@@ -140,14 +140,7 @@ export const AREAS = [
   "Swartruggens",
 ];
 
-export const GALLERY_IMAGES = [
-  "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=400&q=80",
-  "https://images.unsplash.com/photo-1558402529-d2638a7023e9?auto=format&fit=crop&w=400&q=80",
-  "https://images.unsplash.com/photo-1581092921461-eab62e97a782?auto=format&fit=crop&w=400&q=80",
-  "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=400&q=80",
-  "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=400&q=80",
-  "https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&w=400&q=80",
-];
+
 
 export const PHONE_DISPLAY = "073 939 5732";
 export const PHONE_TEL = "tel:+27739395732";
@@ -155,6 +148,6 @@ export const WHATSAPP = "https://wa.me/27739395732";
 export const EMAIL = "thabo@kayteestopelect.co.za";
 
 // ─── EmailJS config (replace with your own IDs from dashboard.emailjs.com) ───
-export const EMAILJS_SERVICE_ID = "YOUR_SERVICE_ID";
-export const EMAILJS_TEMPLATE_ID = "YOUR_TEMPLATE_ID";
-export const EMAILJS_PUBLIC_KEY = "YOUR_PUBLIC_KEY";
+export const EMAILJS_SERVICE_ID = "Yservice_acmd3du";
+export const EMAILJS_TEMPLATE_ID = "template_jczadyr";
+export const EMAILJS_PUBLIC_KEY = "79TGjqBEdjmngEC_O";
