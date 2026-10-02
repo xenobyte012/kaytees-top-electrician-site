@@ -1,9 +1,11 @@
 {
+
+
   "name": "kaytees-top-electrician-site",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://xenobyte012.github.io/kaytees-top-electrician-site"
+  "homepage": "https://kayteestopelect.co.za",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
