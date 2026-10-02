@@ -4,6 +4,7 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/kaytees-top-electrician-site/"
+  base: "/kaytees-top-electrician-site/",
+
 });
  
