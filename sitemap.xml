@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage (covers all sections: #services #about #why-us #partners #gallery #areas #contact) -->
+  <url>
+    <loc>https://kayteestopelect.co.za/</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+
+    <image:image>
+      <image:loc>https://kayteestopelect.co.za/logo.png</image:loc>
+      <image:title>Kaytee's Top Electrical — Electrician in Rustenburg, South Africa</image:title>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://kayteestopelect.co.za/img-1.jpg</image:loc>
+      <image:title>Electrical work by Kaytee's Top Electrical</image:title>
+    </image:image>
+  </url>
+
+</urlset>

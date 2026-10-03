@@ -1,0 +1,9 @@
+# robots.txt for Kaytee's Top Electrical
+User-agent: *
+Allow: /
+
+# Block nothing — we want full indexation
+Disallow:
+
+# Sitemap location (required for crawlers)
+Sitemap: https://kayteestopelect.co.za/sitemap.xml
