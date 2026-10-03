@@ -1,0 +1,30 @@
+{
+  "name": "Kaytee's Top Electrical",
+  "short_name": "Kaytee's Electrical",
+  "description": "Professional electrical services across South Africa. Based in Rustenburg.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#0b5cab",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo.pn
+      
+      
+      
+      
+      
+      
+      
+      
+      g",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
