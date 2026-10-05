@@ -1,7 +1,7 @@
 // src/components/Navbar.jsx
 import { useState, useEffect } from "react";
-import { Menu, X, Phone, Lightbulb } from "lucide-react";
-import { NAV_LINKS, PHONE_DISPLAY, PHONE_TEL } from "../data";
+import { Menu, X, Lightbulb } from "lucide-react";
+import { NAV_LINKS } from "../data";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,6 +12,16 @@ export default function Navbar() {
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  // Smooth scroll to #contact
+  const scrollToContact = (e) => {
+    e.preventDefault();
+    setMenuOpen(false);
+    const el = document.getElementById("contact");
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
 
   return (
     <header
@@ -42,10 +52,11 @@ export default function Navbar() {
           ))}
           <li>
             <a
-              href={PHONE_TEL}
+              href="#contact"
+              onClick={scrollToContact}
               className="flex items-center gap-2 rounded-full bg-gradient-to-r from-amber-400 to-orange-500 px-5 py-2 text-sm font-bold text-black shadow-lg shadow-amber-500/30 transition hover:scale-105 hover:shadow-amber-500/50"
             >
-               Get a Free Quote
+              Get a Free Quote
             </a>
           </li>
         </ul>
@@ -74,8 +85,8 @@ export default function Navbar() {
           ))}
           <li className="pt-2">
             <a
-              href={PHONE_TEL}
-              onClick={() => setMenuOpen(false)}
+              href="#contact"
+              onClick={scrollToContact}
               className="flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-amber-400 to-orange-500 px-5 py-3 text-center font-bold text-black"
             >
               Get a Free Quote
@@ -86,4 +97,3 @@ export default function Navbar() {
     </header>
   );
 }
-
