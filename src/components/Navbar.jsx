@@ -9,18 +9,24 @@ export default function Navbar() {
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
+    onScroll(); // set initial state on mount
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // Smooth scroll to #contact
+  // Smooth scroll to #contact with navbar offset
   const scrollToContact = (e) => {
     e.preventDefault();
     setMenuOpen(false);
+
     const el = document.getElementById("contact");
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
+    if (!el) return;
+
+    const NAV_OFFSET = 80; // height of your fixed navbar
+    const top =
+      el.getBoundingClientRect().top + window.pageYOffset - NAV_OFFSET;
+
+    window.scrollTo({ top, behavior: "smooth" });
   };
 
   return (
