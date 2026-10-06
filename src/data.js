@@ -148,6 +148,6 @@ export const WHATSAPP = "https://wa.me/27739395732";
 export const EMAIL = "thabo@kayteestopelect.co.za";
 
 // ─── EmailJS config (replace with your own IDs from dashboard.emailjs.com) ───
-export const EMAILJS_SERVICE_ID = "service_acmd3du";
+export const EMAILJS_SERVICE_ID = "service_nqmw07v";
 export const EMAILJS_TEMPLATE_ID = "template_jczadyr";
 export const EMAILJS_PUBLIC_KEY = "79TGjqBEdjmngEC_O";
