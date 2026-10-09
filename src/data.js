@@ -13,6 +13,7 @@ import {
   Banknote,
   ShieldCheck,
   MapPin,
+  Sun
 } from "lucide-react";
 
 export const NAV_LINKS = [
@@ -48,7 +49,7 @@ export const SERVICES = [
     Icon: Zap,
   },
   {
-    title: "Cable Tapping",
+    title: "Cable Thumping",
     desc: "Safe and professional cable tapping and jointing for LV and MV networks, ensuring reliable power distribution with zero downtime for your home or business.",
     Icon: Cable,
   },
@@ -72,6 +73,12 @@ export const SERVICES = [
     desc: "Planned preventative maintenance for commercial and industrial clients across South Africa. Keep your electrical systems safe, compliant and running smoothly all year round.",
     Icon: RefreshCw,
   },
+  {
+    title: "Solar Panel Cleaning",
+    desc: "Professional solar panel cleaning to remove dust, dirt and debris that reduce energy production. Keep your solar panels clean, improve sunlight absorption and help your system perform at its best.",
+    Icon: Sun,
+  },
+
 ];
 
 export const WHY_US = [
